@@ -1,0 +1,40 @@
+{
+  "name": "jwt-password-reset",
+  "version": "1.0.0",
+  "description": "RESTful ToDo List API with Authentication and Password Reset",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.2.1",
+    "npm": ">=5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethbergman/jwt-password-reset.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Authentication",
+    "JWT"
+  ],
+  "author": "Seth Bergman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethbergman/jwt-password-reset/issues"
+  },
+  "homepage": "https://github.com/sethbergman/jwt-password-reset#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongo-client": "^0.2.1",
+    "mongoose": "^4.7.2",
+    "nodemailer": "^4.0.1",
+    "nodemailer-express-handlebars": "^2.0.0"
+  }
+}
