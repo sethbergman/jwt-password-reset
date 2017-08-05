@@ -1,5 +1,7 @@
 # JWT Password Reset
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/jwt-password-reset.svg)](https://greenkeeper.io/)
+
 --------------------------------------------------------------------------------
 
 ## Clone this repository
