@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.2.1",
@@ -35,6 +37,8 @@
     "mongo-client": "^0.2.1",
     "mongoose": "^4.7.2",
     "nodemailer": "^4.0.1",
-    "nodemailer-express-handlebars": "^2.0.0"
-  }
+    "nodemailer-express-handlebars": "^2.0.0",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
